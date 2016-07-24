@@ -16,7 +16,7 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>PDfrDltCgFLJdRmLIYbqgfhYH1vAiwPukxV/pUWgXcw=</DigestValue>
+<DigestValue>E3NJi3nSI3KL99yEfre612jrI1bgFfCn7LRLzRQ+GBs=</DigestValue>
 </Reference>
 <Reference URI="js%2Fbluetooth.adv.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -24,11 +24,11 @@
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>7RFDV/pMzr8wDkW8WbeAWlIiX5+ulv1y0puUuM9TNr0=</DigestValue>
+<DigestValue>jDr1GuWjhI0hO0t0PI108HHbFphcFaRRV4DGt8COg5c=</DigestValue>
 </Reference>
 <Reference URI="js%2Fmaps.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>vMkS5D8vlZrd1ZDHxkkSiFudojsD8vejwSeXQBMYCEQ=</DigestValue>
+<DigestValue>5t3NxekynWUzwiny9PyWqoDzJkgmHsBPgDN/yXEumjQ=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -39,9 +39,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-iDvtIBXcjzO/Cxq0fux1xXKTriM7cEB0VDNDynVF+yJsW0Nnv0yW/ybRe5ryH99g1ZXiBopGF5RN
-EbNKgBr0Uo+6XRJiV5ZdZeQW6KIt+DF6z/yvCeEgTRVJcA4si8MWt0+r+aTYFykkVcWtLdXUxR2Y
-qCnyEm7jxq68UPp2Qzg=
+OFbJrv82/Lw3JZynfRLD8XYbbPTL1ZQypMWK/jHw0CQXF7ZRk3JevDOIGvoy0/njmblTsP1L26pt
+Zz/A8LlSmbCEpTY/Bzt80DyOn8gRRXwhMujNSdVM61+ugFpLbU3x4OryOw3DZ2R76VGPMeyrzGPg
+TPtn9fPV8GIihqaCLM4=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

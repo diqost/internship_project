@@ -13,11 +13,10 @@ window.onload = function() {
 document.addEventListener("rotarydetent", function(ev) {
 	var dir = ev.detail.direction;
 	if (dir === "CW") {
-		map.zoomIn();
-
+		map.setZoom(Math.max(map.getZoom() - 1, 1));
+		
 	} else if (dir === "CCW") {
-
-		map.zoomOut();
+		map.setZoom(Math.min(map.getZoom() + 1, 17));
 
 	} else {
 		alert("SMTH WRONG");

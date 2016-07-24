@@ -4,7 +4,7 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>bN9D3Gs3qaWamLVO3uLIVehxO9LJYbO4DubvH6/zxKw=</DigestValue>
+<DigestValue>6Rdjth6EuGOTCN3N/rXlSIwzsiW55DflN1arZMkVZA0=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -20,7 +20,7 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>PDfrDltCgFLJdRmLIYbqgfhYH1vAiwPukxV/pUWgXcw=</DigestValue>
+<DigestValue>E3NJi3nSI3KL99yEfre612jrI1bgFfCn7LRLzRQ+GBs=</DigestValue>
 </Reference>
 <Reference URI="js%2Fbluetooth.adv.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -28,11 +28,11 @@
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>7RFDV/pMzr8wDkW8WbeAWlIiX5+ulv1y0puUuM9TNr0=</DigestValue>
+<DigestValue>jDr1GuWjhI0hO0t0PI108HHbFphcFaRRV4DGt8COg5c=</DigestValue>
 </Reference>
 <Reference URI="js%2Fmaps.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>vMkS5D8vlZrd1ZDHxkkSiFudojsD8vejwSeXQBMYCEQ=</DigestValue>
+<DigestValue>5t3NxekynWUzwiny9PyWqoDzJkgmHsBPgDN/yXEumjQ=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -43,9 +43,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-ojTHL6n9r7fD+vg4HmBIEttc65KKpu1kqZ3eYx2wbuolgpFQGVtIjd/RR18LDy9lJ2tI0K9M1y4d
-6bG3FFMaGe4nRKoMSPaomzbF5FKj6iMlb0ohGfwh1sOMvoSFq0NPBBmX05UQE8hdM3ezNOVHFy+8
-emJfXhTwlmAKye/hvgc=
+hcRZ7txTRAJo0+YWPEa8J97DpqJY2ifoPxyaFL4oVYmTMaQfd/O3QpGM2TD2+aloEZOkhN4igtwX
+7VuTksRXHwZqW8VWRV/gUg/oYAsp9myFXJ1+sDM+jJHZ5Le9ZSc3HnnRPzkIfUwkuvYyj6qOhaee
+QVacKaWH9pqswyQVuwM=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
