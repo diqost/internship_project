@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="linkedmaps.bluetoothleservice" version="1.0.0">
+    <profile name="wearable"/>
+    <service-application appid="linkedmaps.bluetoothleservice" exec="bluetoothleservice" multiple="false" nodisplay="true" on-boot="true" type="capp">
+        <label>bluetoothleservice</label>
+        <icon>bluetoothleservice.png</icon>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+        <privilege>http://tizen.org/privilege/bluetooth</privilege>
+    </privileges>
+</manifest>
