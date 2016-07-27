@@ -2,6 +2,6 @@
 
 typedef struct {
 	unsigned short command;
+	float lat;
 	float lon;
-	float lan;
 } _sdata;
