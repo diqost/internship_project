@@ -60,13 +60,14 @@ function routeApiResult(response){
  	 steps = leg.steps
 	drawRoute(steps);
 	var defVect = [0,1];
-	var curVect = [steps[1].start_location.lat - steps[0].start_location.lat , steps[1].start_location.lng - - steps[0].start_location.lng];
-	var scalarMult = defVect[0] * curVect[0] + defVect[1] * curVect[1];
+	var curVect = [steps[0].end_location.lat - steps[0].start_location.lat , steps[0].end_location.lng - steps[0].start_location.lng];
+	var scalarMult = curVect[1]; //defVect[0] == 0 && defVect[1] ==1
 	function lenVect(vect){
 		return Math.sqrt(vect[0]*vect[0] + vect[1] * vect[1]);
 	}
+	console.log(lenVect(curVect));
 	console.log(scalarMult, (lenVect(curVect) * lenVect(defVect)));
- 	var angle = Math.acos(scalarMult / (lenVect(curVect) * lenVect(defVect)))* (180/Math.PI);
+ 	var angle = (Math.acos(scalarMult / (lenVect(curVect))) * 180) / Math.PI;
 	console.log(angle);
 	
 
@@ -80,7 +81,8 @@ function rotateMap(angle){
 	mapTag.style.webkitTransform = 'rotate('+angle+'deg)';
 	console.log("rotating on angle " + angle);
 	$("#mmm").css({"webkit-transform": "rotate("+angle+"deg)"});
-}
+	//$("mmm").rotate(angle);
+}	
 function drawRoute(steps){
 	 
 	 if (buildedRoute !== null) 

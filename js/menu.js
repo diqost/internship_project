@@ -1,6 +1,11 @@
 var page = document.querySelector("#mainPage");
 var handler = document.querySelector("#menuButton");
 console.log(handler);
+var STATE = {
+		MAIN_MAP : 1,
+		SHOWING_ROUTE : 2
+};
+var AppState = STATE.MAIN_MAP;
 
 var menuPage = document.querySelector("#menuPage"), selector = document
 		.getElementById("menuSelector"), clickBound, routesPopup = document
@@ -42,7 +47,12 @@ function mapRotaryListener(ev) {
 handler.addEventListener("click", menuButtonClickedHandler);
 page.addEventListener( "pagebeforeshow",function() {
 	console.log("showing MAIN PAGE");
+	
 	document.addEventListener("rotarydetent", mapRotaryListener);
+	if(AppState === STATE.MAIN_MAP)
+		$("#goFooter").css({"display":"none"});
+	else 
+		$("#goFooter").css({"display":"block"});
 });
 page.addEventListener( "pagebeforehide",function() {
 	console.log("HIDING MAIN PAGE");
@@ -97,6 +107,7 @@ function menuItemWasSelected(itemIndex) {
 	case MENU_ITEMS.SEARCH:
 		break;
 	case MENU_ITEMS.ROUTES:
+		AppState = STATE.SHOWING_ROUTE;
 		tau.changePage("#routesMain");
 		// tau.openPopup(routesPopup);
 
